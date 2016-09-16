@@ -14,7 +14,7 @@ root model =
         ]
         [ div [ class "container" ]
             [ img
-                [ src "crystal-logo.png"
+                [ src "/images/crystal-logo.png"
                 , title "Crystal: The Programming Language"
                 ]
                 []

@@ -15,6 +15,6 @@ root model =
         [ div [ class "container" ]
             [ h1 [ class "title" ]
                 [ text "Just a Second There Professor..." ]
-            , img [ src "justASec.jpg", title "Office Space Image" ] []
+            , img [ src "/images/justASec.jpg", title "Office Space Image" ] []
             ]
         ]
