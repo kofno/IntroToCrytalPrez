@@ -4,6 +4,7 @@
   "description": "Brunch With Elm",
   "main": "brunch-config.js",
   "scripts": {
+    "postinstall": "./node_modules/.bin/elm package install -y",
     "start": "brunch watch --server",
     "prod": "brunch build --production"
   },
@@ -15,15 +16,15 @@
   "author": "Alaister Young <a@alaisteryoung.com>",
   "license": "ISC",
   "dependencies": {
-    "bulma": "^0.1.2",
-    "font-awesome": "^4.6.3",
-    "highlight.js": "^9.6.0",
     "auto-reload-brunch": "^2.7.1",
     "brunch": "^2.8.2",
-    "hmr-brunch": "^0.1.1",
+    "bulma": "^0.1.2",
+    "elm": "^0.17.1",
     "elm-brunch": "^0.7.0",
+    "font-awesome": "^4.6.3",
+    "highlight.js": "^9.6.0",
+    "hmr-brunch": "^0.1.1",
     "sass-brunch": "^2.6.3"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
