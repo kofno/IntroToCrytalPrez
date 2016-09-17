@@ -1,1 +1,1 @@
-web: stack exec IntroToCrystal
+web: IntroToCrystal
