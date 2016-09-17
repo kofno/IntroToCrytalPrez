@@ -4,7 +4,6 @@
   "description": "Brunch With Elm",
   "main": "brunch-config.js",
   "scripts": {
-    "postinstall": "./node_modules/elm/binwrappers/elm package install -y",
     "start": "brunch watch --server",
     "prod": "brunch build --production"
   },
@@ -21,7 +20,6 @@
     "highlight.js": "^9.6.0"
   },
   "devDependencies": {
-    "elm": "^0.17.1",
     "auto-reload-brunch": "^2.7.1",
     "brunch": "^2.8.2",
     "hmr-brunch": "^0.1.1",
