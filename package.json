@@ -17,13 +17,13 @@
   "dependencies": {
     "bulma": "^0.1.2",
     "font-awesome": "^4.6.3",
-    "highlight.js": "^9.6.0"
-  },
-  "devDependencies": {
+    "highlight.js": "^9.6.0",
     "auto-reload-brunch": "^2.7.1",
     "brunch": "^2.8.2",
     "hmr-brunch": "^0.1.1",
     "elm-brunch": "^0.7.0",
     "sass-brunch": "^2.6.3"
+  },
+  "devDependencies": {
   }
 }
